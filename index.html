@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Raed Group - Business Excellence & Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-crown"></i>
+                <span>Al Raed Group</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Business Excellence & Innovation</h1>
+            <p class="hero-subtitle">Transforming Ideas into Reality Across Multiple Industries</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">Get Started</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('services')">Explore Services</button>
+            </div>
+            <div class="scroll-indicator">
+                <span class="scroll-dot"></span>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="animated-bg"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Al Raed Group</h2>
+                <p>Leading the way in business innovation and customer excellence</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>Al Raed Group is a diversified business conglomerate based in the United Arab Emirates, committed to excellence, innovation, and customer satisfaction. With years of experience across multiple sectors, we've built a reputation for quality and reliability.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>15+</h4>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>500+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>50+</h4>
+                            <p>Expert Team</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>100%</h4>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Business Consulting</h3>
+                    <p>Strategic guidance and expert advice to optimize your business operations and maximize growth potential.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Financial Services</h3>
+                    <p>Comprehensive financial solutions including investment management and wealth planning services.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Real Estate</h3>
+                    <p>Premium property development and management services across the UAE with a focus on quality.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Logistics & Trade</h3>
+                    <p>Efficient supply chain and trading solutions connecting businesses globally with reliability.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Sports & Events</h3>
+                    <p>Organization and management of world-class sporting events and entertainment experiences.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Risk Management</h3>
+                    <p>Comprehensive risk assessment and mitigation strategies to protect your business interests.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p>Showcasing our successful projects and partnerships</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="consulting">Consulting</button>
+                <button class="filter-btn" data-filter="real-estate">Real Estate</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="consulting">
+                    <div class="portfolio-image">
+                        <i class="fas fa-chart-pie"></i>
+                        <div class="portfolio-overlay">
+                            <h4>Business Strategy</h4>
+                            <p>Consulting Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="real-estate">
+                    <div class="portfolio-image">
+                        <i class="fas fa-home"></i>
+                        <div class="portfolio-overlay">
+                            <h4>Premium Residence</h4>
+                            <p>Real Estate Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="sports">
+                    <div class="portfolio-image">
+                        <i class="fas fa-running"></i>
+                        <div class="portfolio-overlay">
+                            <h4>Marathon Event 2024</h4>
+                            <p>Sports & Events</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="consulting">
+                    <div class="portfolio-image">
+                        <i class="fas fa-laptop"></i>
+                        <div class="portfolio-overlay">
+                            <h4>Digital Transformation</h4>
+                            <p>IT Consulting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="real-estate">
+                    <div class="portfolio-image">
+                        <i class="fas fa-building"></i>
+                        <div class="portfolio-overlay">
+                            <h4>Commercial Complex</h4>
+                            <p>Real Estate Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="sports">
+                    <div class="portfolio-image">
+                        <i class="fas fa-basketball"></i>
+                        <div class="portfolio-overlay">
+                            <h4>Sports Tournament</h4>
+                            <p>Major Event</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Real feedback from our valued partners and clients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Al Raed Group transformed our business operations completely. Their expertise and dedication are unmatched!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MH</div>
+                        <div>
+                            <h4>Mohammed Hassan</h4>
+                            <p>CEO, Tech Solutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Working with Al Raed Group has been a game-changer for our company. Highly professional and results-driven!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">FA</div>
+                        <div>
+                            <h4>Fatima Al-Mansoori</h4>
+                            <p>Director, Import-Export Corp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excellent service quality and customer support. Al Raed Group truly understands our business needs."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AK</div>
+                        <div>
+                            <h4>Ahmed Al-Ketbi</h4>
+                            <p>Business Manager, Venture Capital</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Grow Your Business?</h2>
+            <p>Partner with Al Raed Group and experience the difference professional excellence makes</p>
+            <button class="btn btn-primary btn-large" onclick="scrollToSection('contact')">Contact Us Today</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>We'd love to hear from you. Send us a message!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Abu Dhabi, United Arab Emirates</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+971 2442 0264</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>Info@alraedsports.ae</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Sunday - Thursday: 9 AM - 6 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Al Raed Group</h4>
+                    <p>Leading excellence in business and innovation across multiple industries.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Business Consulting</a></li>
+                        <li><a href="#">Financial Services</a></li>
+                        <li><a href="#">Real Estate</a></li>
+                        <li><a href="#">Logistics & Trade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates and insights</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Al Raed Group. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
